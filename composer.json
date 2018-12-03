@@ -1,0 +1,25 @@
+{
+    "name": "hymailer/mailerqueue",
+    "type": "yii2-extensiion",
+    "description": "Asynchronous mail delivery queue by HY",
+    "keywords": ["yii2","redis","mailer","async"],
+    "license": "MIT",
+    "support": {
+    	"source": "https://github.com/Hyingerrr/hymailer.git",
+    },
+    "authors": [
+        {
+            "name": "Hyingerrr",
+            "email": "huangying644290@163.com"
+        }
+    ],
+    "require": {
+    	"yiisoft/yii2": "*",
+    	"yiisoft/yii2-redis":"~2.0.0"
+    },
+    "autoload": {
+    	"prs-4":{
+    		"hymailer\\mailerqueue\\":"src/"
+    	}
+    }
+}
