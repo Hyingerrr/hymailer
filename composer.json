@@ -5,7 +5,7 @@
     "keywords": ["yii2","redis","mailer","async"],
     "license": "MIT",
     "support": {
-    	"source": "https://github.com/Hyingerrr/hymailer.git",
+    	"source": "https://github.com/Hyingerrr/hymailer.git"
     },
     "authors": [
         {
