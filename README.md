@@ -18,14 +18,19 @@ To use this extension, you have to configure the Connection class in your applic
 
 return [
     //....
+
     'components' => [
         'mailer' => [
+
             // 'class' => 'yii\swiftmailer\Mailer',
             // 指向自定义的扩展类名(继承yii\swiftmailer\Mailer) 加载时无法识别自定义的目录 需要在前面alias声明
+
             'class' => 'hymailer\mailqueue\QueueMailer',
+
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
+
             'db'  => '1', //redis默认有16个库，这里选择入第2个库
             'key' => 'mails',  //redis键名
             'useFileTransport' => false,
