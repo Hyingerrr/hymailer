@@ -6,12 +6,16 @@ The preferred way to install this extension is through composer.
 Either run
 
 php composer.phar require --prefer-dist yiisoft/yii2-redis:"~2.0.0"
+
 or add
+
 "yiisoft/yii2-redis": "~2.0.0" 
+
 to the require section of your composer.json.
 
 # Configuration
 To use this extension, you have to configure the Connection class in your application configuration:
+
 return [
     //....
     'components' => [
