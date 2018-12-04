@@ -3,13 +3,9 @@ Asynchronous mail delivery queue by HY
 # Installation
 The preferred way to install this extension is through composer.
 
-Either run
+run
 
-php composer.phar require --prefer-dist yiisoft/yii2-redis:"~2.0.0"
-
-or add
-
-"yiisoft/yii2-redis": "~2.0.0" 
+php composer.phar require --prefer-dist hymailer/mailerqueue
 
 to the require section of your composer.json.
 
