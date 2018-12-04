@@ -18,7 +18,7 @@
     	"yiisoft/yii2-redis":"~2.0.0"
     },
     "autoload": {
-    	"prs-4":{
+    	"psr-4":{
     		"hymailer\\mailerqueue\\":"src/"
     	}
     }
